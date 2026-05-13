@@ -6,7 +6,8 @@
 
 <p align="center">
   <strong>Local Speech-to-Text Transcription</strong><br>
-  A desktop app for fast, private audio transcription with AI-powered summarization
+  A desktop app for fast, private audio transcription with AI-powered summarization<br>
+  <sub>Built with <a href="https://kiro.dev">Kiro</a></sub>
 </p>
 
 ---
