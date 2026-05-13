@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E07A3C"/>
+      <stop offset="100%" stop-color="#B7401F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App-Icon Hintergrund -->
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="none"
+        stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+
+  <!-- Audio-Wellenform links: 4 Balken mit unterschiedlicher Höhe -->
+  <g fill="#FFFFFF">
+    <rect x="100" y="236" width="22" height="40"  rx="11"/>
+    <rect x="138" y="200" width="22" height="112" rx="11"/>
+    <rect x="176" y="170" width="22" height="172" rx="11"/>
+    <rect x="214" y="216" width="22" height="80"  rx="11"/>
+  </g>
+
+  <!-- Pfeil: Audio -> Text -->
+  <g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"
+     stroke-linejoin="round" fill="none">
+    <line x1="258" y1="256" x2="298" y2="256"/>
+    <polyline points="284,238 302,256 284,274"/>
+  </g>
+
+  <!-- Textzeilen rechts (Transkript) -->
+  <g fill="#FFFFFF">
+    <rect x="322" y="186" width="110" height="20" rx="10"/>
+    <rect x="322" y="218" width="86"  height="20" rx="10"/>
+    <rect x="322" y="250" width="120" height="20" rx="10"/>
+    <rect x="322" y="282" width="74"  height="20" rx="10"/>
+    <rect x="322" y="314" width="98"  height="20" rx="10"/>
+  </g>
+</svg>

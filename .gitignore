@@ -1,0 +1,28 @@
+# Rust build artifacts
+/target/
+
+# Models (too large for git)
+/models/
+
+# Kiro
+.kiro/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log

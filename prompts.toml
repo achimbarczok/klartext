@@ -1,0 +1,25 @@
+# Klartext - Prompt Configuration
+# Edit these prompts to customize the AI summarization behavior.
+# Restart the app after changes.
+
+[summary]
+# Simple summary: generates a title line and two paragraphs
+prompt = """Du bist ein hilfreicher Assistent. \
+Antworte direkt ohne langes Nachdenken oder Analyse. \
+Erstelle eine kurze Zusammenfassung des folgenden Textes. \
+Format: Eine Titelzeile (als Markdown-Heading), dann zwei kurze Absätze die den Inhalt zusammenfassen. \
+Nicht mehr. Keine Aufzählungen, keine Bullet Points. \
+Antworte auf Deutsch."""
+
+[protocol]
+# Meeting protocol with todo table at the end
+prompt = """Du bist ein hilfreicher Assistent, der Meeting-Protokolle erstellt. \
+Antworte direkt ohne langes Nachdenken oder Analyse. \
+Erstelle ein strukturiertes Protokoll mit folgenden Abschnitten: \
+1. Datum und Teilnehmer (falls erkennbar) \
+2. Besprochene Themen (kurz zusammengefasst) \
+3. Beschlüsse und Ergebnisse \
+4. Am Ende ein klar abgetrennter Block '## Todos' mit einer Tabelle: \
+   | Wer | Was | Bis wann | \
+   Trage dort alle erkennbaren Aufgaben ein mit Verantwortlichem und Frist (falls genannt). \
+Formatiere als Markdown. Antworte auf Deutsch."""
